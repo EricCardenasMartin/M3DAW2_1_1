@@ -17,7 +17,7 @@ public class Compte {
 	}
 
 	public void Invertir(double quantitat){
-		saldo += quantitat *1.1;
+		saldo += quantitat * 0.1;
 	}
 
 	public String GetNomClient(){
