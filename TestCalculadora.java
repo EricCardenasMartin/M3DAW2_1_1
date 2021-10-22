@@ -5,7 +5,7 @@ public class TestCalculadora{
 		System.out.println("");
 		System.out.println("-------------------------");
 		System.out.println("");
-		System.out.println("Pares menores a " + n + "n");
+		System.out.println("Pares menores a " + n + ":");
 		Calculadora.LesserEven(n);
 
 		System.out.println("");
