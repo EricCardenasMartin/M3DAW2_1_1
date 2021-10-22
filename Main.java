@@ -1,24 +1,10 @@
 class Main {
   public static void main(String[] args) {
-	
-		System.out.println("Introduce una cantidad porfa UwU:");
-		String input = System.console().readLine();
+	System.out.println("Introduce un numero porfa UwU:");	
+	String input = System.console().readLine();
 
-	  	int parsedInput = Integer.parseInt(input);
+	int n = Math.abs(Integer.parseInt(input));
 
-	  	Dineros dineros = new Dineros();
-
-		System.out.println("");
-		System.out.println("Desglose:");
-		System.out.println("");
-
-		dineros.Desglose(parsedInput);
-
-		System.out.println("");
-		System.out.println("Cambio:");
-		System.out.println("");
-
-		dineros.Cambio(parsedInput);
-
+	TestCalculadora paco = new TestCalculadora(n);
   }
 }
