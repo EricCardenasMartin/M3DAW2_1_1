@@ -4,6 +4,6 @@ class Main {
 
 	  boolean isPalindrome = PalindromeManager.IsPalindrome(input);
 
-	System.out.println(input + (isPalindrome ? " si " : " no ") + "es un palindromo " + (isPalindrome ? " :D" : " D:"));
+	System.out.println(input + (isPalindrome ? " si " : " no ") + "es un palindromo " + (isPalindrome ? ":D" : "D:"));
   }
 }

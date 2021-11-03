@@ -7,12 +7,7 @@ public class PalindromeManager {
 			temp += input.charAt(input.length() - 1 - i);
 		}
 
-		System.out.println(input);
-
 		input = input.substring(0,halfLength);
-
-		System.out.println(input);
-		System.out.println(temp);
 
 		if (input.contains(temp))
 			return true;
